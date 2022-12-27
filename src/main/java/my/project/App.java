@@ -1,4 +1,4 @@
-package ie.gannons;
+package my.project;
 
 /**
  * Hello world!

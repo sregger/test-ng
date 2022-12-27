@@ -1,4 +1,4 @@
-package ie.gannons;
+package my.project;
 
 import org.testng.annotations.*;
 import java.lang.Thread;

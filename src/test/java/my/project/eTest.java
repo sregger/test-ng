@@ -1,4 +1,4 @@
-package ie.gannons;
+package my.project;
 
 import org.testng.annotations.*;
 import java.lang.Thread;
@@ -6,7 +6,7 @@ import java.lang.Thread;
 /**
  * Unit test for simple App.
  */
-public class dTest 
+public class eTest 
 {
  @BeforeClass
  public void setUp() {
@@ -14,33 +14,18 @@ public class dTest
  }
 
  @Test
- public void dTest1() {
+ public void eTest1() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
  @Test
- public void dTest2() {
+ public void eTest2() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
  @Test
- public void dTest3() {
+ public void eTest3() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
-
- @Test
- public void dTest4() {
-   System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
- 
- @Test
- public void dTest5() {
-   System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
- 
- @Test
- public void dTest6() {
-    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
 }
