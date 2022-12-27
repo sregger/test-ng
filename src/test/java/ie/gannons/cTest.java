@@ -13,32 +13,32 @@ public class cTest
     System.out.println("Setup " + this.getClass().getSimpleName());
  }
 
- @Test(groups = { "b" })
+ @Test
  public void cTest1() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
- @Test(groups = { "b" })
+ @Test
  public void cTest2() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
- @Test(groups = { "b" })
+ @Test
  public void cTest3() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
- @Test(groups = { "b" })
+ @Test
  public void cTest4() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
  
- @Test(groups = { "b" })
+ @Test
  public void cTest5() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
  
- @Test(groups = { "b" })
+ @Test
  public void cTest6() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }

@@ -6,48 +6,41 @@ import java.lang.Thread;
 /**
  * Unit test for simple App.
  */
-public class aaTest 
+public class dTest 
 {
  @BeforeClass
- public void setUp() throws InterruptedException {
+ public void setUp() {
     System.out.println("Setup " + this.getClass().getSimpleName());
-    Thread.sleep(5000);
  }
 
- @Test(groups = { "slow" })
- public void aaTest1() throws InterruptedException {
+ @Test
+ public void dTest1() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-    Thread.sleep(5000);
  }
 
- @Test(groups = { "fast" })
- public void aaTest2() throws InterruptedException {
+ @Test
+ public void dTest2() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-   Thread.sleep(5000);
  }
 
- @Test(groups = { "fast" })
- public void aaTest3() throws InterruptedException {
+ @Test
+ public void dTest3() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-   Thread.sleep(5000);
  }
 
- @Test(groups = { "fast" })
- public void aaTest4() throws InterruptedException {
+ @Test
+ public void dTest4() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-   Thread.sleep(5000);
  }
  
- @Test(groups = { "fast" })
- public void aaTest5() throws InterruptedException {
+ @Test
+ public void dTest5() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-   Thread.sleep(5000);
  }
  
- @Test(groups = { "slow" })
- public void aaTest6() throws InterruptedException {
+ @Test
+ public void dTest6() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
-    Thread.sleep(5000);
  }
 
 }

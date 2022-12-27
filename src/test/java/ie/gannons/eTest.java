@@ -6,7 +6,7 @@ import java.lang.Thread;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class eTest 
 {
  @BeforeClass
  public void setUp() {
@@ -14,33 +14,18 @@ public class AppTest
  }
 
  @Test
- public void zSlowTest() {
+ public void eTest1() {
     System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
  @Test
- public void aTest() {
+ public void eTest2() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
  @Test
- public void aATest() {
+ public void eTest3() {
    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
-
- @Test
- public void alphabeticTest() {
-   System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
- 
- @Test
- public void aFastTest() {
-   System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
- }
- 
- @Test
- public void aSlowTest() {
-    System.out.println(Thread.currentThread().getStackTrace()[1].getMethodName());
  }
 
 }
